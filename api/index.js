@@ -59,7 +59,7 @@ async function getPohData(walletAddress) {
 }
 
 // API endpoint
-app.get('/', async (req, res) => {
+app.get('/api/', async (req, res) => {
   const walletAddress = req.query.address;
 
   if (!walletAddress) {
