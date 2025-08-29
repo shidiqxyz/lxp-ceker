@@ -29,7 +29,7 @@ const provider = new ethers.providers.JsonRpcProvider(`https://linea-mainnet.inf
 const tokenInfo = {
   lxp:  { address: "0xd83af4fbD77f3AB65C3B1Dc4B38D7e67AEcf599A", decimals: 18 },
   "lxp-l": { address: "0xBC8f4663470229Fd4CA3686A24792d93Dd800216", decimals: 18 },
-  lam: { address: "0xe158cacce6f5713f5739a7d7af0db60116187687", decimals: 9 } // pakai 9 desimal
+  lam: { address: "0xe158cacce6f5713f5739a7d7af0db60116187687", decimals: 18 } // pakai 9 desimal
 };
 
 // Fungsi untuk mendapatkan balance token
